@@ -1,0 +1,415 @@
+/* 移动端 */
+@media (max-width:480px){
+    .live,.aboutme,.fteacher{
+        display: none;
+    }
+    .live_app,.aboutme_app,.fteacher_app{
+        width:100%;
+    } 
+    .live_app{
+        margin-top:10%;
+        margin-bottom: 6%;
+        cursor: pointer;
+    }  
+    .live_title{
+        width:100%;
+    }
+    .live_title_t{
+        text-align: center;
+        font-size:1.8rem;
+        color:#fecc51;
+    }
+    .live_title_text{
+        margin-top: 5%;
+    }
+    .live_title_text1{
+        font-size:1rem;
+        color:#fecc51;
+        text-align: center;
+    }
+    .live_title_text2{
+        font-size:0.9rem;
+        color:#a1a1a1;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .live_pic{
+        width:80%;
+        margin: auto;
+    }
+    .live_pic img{
+        width:100%;
+        margin-top: 7%;
+    }
+    .aboutme_app{
+        background-color: #fffaee; 
+    }
+    .aboutme_title{
+        padding-top: 8%;
+    }
+    .ab_title{
+        color:#272727;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .ab_line{
+        width:15%;
+        border-bottom: 1px solid #fecc51;
+        margin: auto;
+        margin-top:2%;
+    }
+    .abone_pic{
+        width:30%;
+        margin: auto;
+    }
+    .abone_pic img{
+        width:100%;
+    }
+    .abone_t{
+        width:50%;
+        margin: auto;
+        color:#a1a1a1;
+    }
+    .abone_title{
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 10%;
+    }
+    .abone_text{
+        font-size: 0.6rem;
+        margin-top: 10%;
+        padding-bottom: 20%;
+        line-height: 1rem;
+    }
+    .fteacher_app{
+        padding-top: 8%;
+        padding-bottom: 3%;
+        position: relative;
+    }
+    .ft_title{
+        font-size: 0.9rem;
+        color:#fecc51;
+        text-align: center;
+    }
+    .ft_text{
+        font-size: 0.8rem;
+        color:#a1a1a1;
+        text-align: center;
+        padding-top: 1%;
+    }
+    .ft_pic{
+        width:100%;
+        padding-top: 10%;
+    }
+    .ft_pic img{
+        width:100%;
+    }
+    .ft_content{
+        width:40%;
+        position: absolute;
+        top:45%;
+        right:5%;
+        text-align: left;
+        color:#8a8a8a;
+        font-size: 0.5rem;
+    }
+}
+/* 平板端 */
+@media (min-width:481px){
+    .live{
+        width:80%;
+        margin: 5% auto 0 auto; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;  
+        position: relative;
+        padding-bottom: 2%;
+        cursor: pointer;
+    }
+    .live_title{
+        width:100%;
+    }
+    .live_title_t{
+        font-size:2rem;
+        color:#fecc51;
+        text-align: left;
+    }
+    .live_title_text{
+        margin-top: 5%;
+        text-align: left;
+    }
+    .live_title_text1{
+        font-size:1.2rem;
+        color:#fecc51;
+        text-align:left;
+    }
+    .live_title_text2{
+        font-size:0.9rem;
+        color:#a1a1a1;
+        text-align:left;
+        margin-top: 1%;
+    }
+    .live_pic{
+        width:80%;
+        margin: auto;
+        position: relative;
+    }
+    .live_pic img{
+        width:100%;
+        margin-top: 8%;
+    }
+    .aboutme{
+        width:100%;
+        padding-top:3%; 
+        padding-bottom: 5%;
+        background-color: #fffaee; 
+    }
+    .aboutme_title{
+        width: 100%;
+    }
+    .ab_title{
+        width: 100%;
+        color:#272727;
+        font-size:1rem;
+        text-align: center;
+    }
+    .ab_line{
+        width:8%;
+        border-bottom: 3px solid #fecc51;
+        margin: auto;
+        margin-top:1%;
+    }
+    .aboutme_content{
+        width:80%;
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .abone, .abtwo, .abthree{
+        width:30%;
+    }
+    .abone_pic{
+        width:50%;
+        margin: auto;
+    }
+    .abone_pic img{
+        width:100%;
+    }
+    .abone_title{
+        text-align: center;
+        font-size: 0.9rem;
+        margin-top: 7%;
+        color:#777777;
+    }
+    .abone_text{
+        font-size: 0.8rem;
+        margin-top: 7%;
+        line-height: 1.2rem;
+        color:#777777;
+    }
+    .abone:hover, .abtwo:hover, .abthree:hover{
+        box-shadow: 0 0 20px rgba(78, 76, 76, 0.6);
+    }
+    .fteacher{
+        position: relative;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+    .ft_t{
+        position: absolute;
+        top:30%;
+        right:8%;
+    }
+    .ft_title{
+        font-size: 1.3rem;
+        color:#fecc51;
+        text-align: left;
+    }
+    .ft_text{
+        font-size: 1rem;
+        color:#a1a1a1;
+        text-align: left;
+        padding-top: 1%;
+    }
+    .ft_pic{
+        width: 100%;
+    }
+    .ft_pic img{
+        width: 100%;
+    }
+    .ft_content{
+        width:20%;
+        position: absolute;
+        bottom: 20%;
+        right:12%;
+        text-align: left;
+        color:#8a8a8a;
+        font-size: 0.9rem;
+    }
+    .live_app,.aboutme_app,.fteacher_app{
+        display: none;
+    } 
+}
+/* PC端 */
+@media (min-width:993px){
+    .live{
+        width:80%;
+        margin: 5% auto 0 auto; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;  
+        position: relative;
+        padding-bottom: 2%;
+        cursor: pointer;
+    }
+    .live_title{
+        width:100%;
+    }
+    .live_title_t{
+        font-size:3.5rem;
+        color:#fecc51;
+        text-align: left;
+    }
+    .live_title_text{
+        margin-top: 5%;
+        text-align: left;
+    }
+    .live_title_text1{
+        font-size:2rem;
+        color:#fecc51;
+        text-align:left;
+    }
+    .live_title_text2{
+        font-size:1.2rem;
+        color:#a1a1a1;
+        text-align:left;
+        margin-top: 1%;
+    }
+    .live_pic{
+        width:80%;
+        margin: auto;
+        position: relative;
+    }
+    .live_pic img{
+        width:100%;
+        margin-top: 8%;
+    }
+    .aboutme{
+        width:100%;
+        padding-top:3%; 
+        padding-bottom: 5%;
+        background-color: #fffaee; 
+    }
+    .aboutme_title{
+        width: 100%;
+    }
+    .ab_title{
+        width: 100%;
+        color:#272727;
+        font-size:1.5rem;
+        text-align: center;
+    }
+    .ab_line{
+        width:8%;
+        border-bottom: 3px solid #fecc51;
+        margin: auto;
+        margin-top:1%;
+    }
+    .aboutme_content{
+        width:80%;
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .abone, .abtwo, .abthree{
+        width:30%;
+    }
+    .abone_pic{
+        width:50%;
+        margin: auto;
+    }
+    .abone_pic img{
+        width:100%;
+    }
+    .abone_title{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 7%;
+        color:#777777;
+    }
+    .abone_text{
+        font-size: 1rem;
+        margin-top: 7%;
+        line-height: 1.4rem;
+        color:#777777;
+    }
+    .abone:hover, .abtwo:hover, .abthree:hover{
+        box-shadow: 0 0 20px rgba(78, 76, 76, 0.6);
+    }
+    .fteacher{
+        width:100%;
+    } 
+    .fteacher img{
+        width:100%;
+    }
+    .live_app,.aboutme_app,.fteacher_app{
+        display: none;
+    } 
+    .fteacher{
+        position: relative;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+    .ft_t{
+        position: absolute;
+        top:30%;
+        right:5%;
+    }
+    .ft_title{
+        font-size: 1.8rem;
+        color:#fecc51;
+        text-align: left;
+    }
+    .ft_text{
+        font-size: 1.5rem;
+        color:#a1a1a1;
+        text-align: left;
+        padding-top: 1%;
+    }
+    .ft_pic{
+        width: 100%;
+    }
+    .ft_pic img{
+        width: 100%;
+    }
+    .ft_content{
+        width:20%;
+        position: absolute;
+        bottom: 20%;
+        right:12%;
+        text-align: left;
+        color:#8a8a8a;
+        font-size: 1.2rem;
+    }
+}
+@keyframes pictwoin{
+    0% {
+        right:-100%;
+    }
+    25% {
+        right:-75%;
+    }
+    50% {
+        right:-50%;
+    }
+    75% {
+        right:-25%;
+    }
+    100% {
+        right:0%;
+    }
+}

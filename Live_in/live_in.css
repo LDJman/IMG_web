@@ -1,0 +1,313 @@
+/* 移动端 */
+@media (max-width:480px){
+    .class_title{
+        padding-top: 5%;
+    }
+    .class_bt{
+        color:#404040;
+        margin: auto;
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    .class_h{
+        height: 0px;
+        border-bottom: 2px solid #fecc51;
+        margin: auto;
+    }
+    .class_main{
+        width:88%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .classct{
+        width:47%;
+        margin-top: 4%;
+        border:  1px solid#d1d1d1;
+        border-radius: 3%;
+    }
+    .classct:hover{
+        cursor: pointer;
+        box-shadow: 0 0 30px #d1d1d1;
+    }
+    .classctpic{
+        width:100%;
+        
+    }
+    .classctpic img{
+        width:100%;
+        border-top-right-radius: 3%;
+        border-top-left-radius: 3%;
+    }
+    .classcttext{
+        width:100%;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .classcttext_l{
+        width:85%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+    }
+    .classcttext_l span{
+        width:100%;
+        text-align: left;
+        color:#404040;
+    }
+    .classcttext_l span:first-child{
+        font-size: 0.7rem;
+    }
+    .classcttext_l span:last-child{
+        font-size: 0.5rem;
+        padding-top: 2%;
+    }
+    .classcttext_r{
+        width:10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .classcttext_r img{
+        width:100%;
+    }
+    .class_look{
+        font-size: 0.7rem;
+    }
+    .goto{
+        width:15%;
+        position: absolute;
+        bottom: 15%;
+        left:43%;
+        background-color: #222222;
+        color: #fecc51;
+        text-align: center;
+        padding: 0.5% 0 0.5% 0;
+        font-size: 0.5rem;
+        margin: auto;
+        cursor: pointer;
+    }
+}
+/* 平板端 */
+@media (min-width:481px){
+    .class_title{
+        padding-top: 5%;
+    }
+    .class_bt{
+        color:#404040;
+        margin: auto;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-bottom: 0.5%;
+    }
+    .class_h{
+        border-bottom: 3px solid #fecc51;
+        margin: auto;
+    }
+    .class_main{
+        width:82%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .classct{
+        width:30%;
+        margin-top: 4%;
+        border:  1px solid#d1d1d1;
+        border-radius: 3%;
+    }
+    .classct:hover{
+        cursor: pointer;
+        box-shadow: 0 0 30px #d1d1d1;
+    }
+    .classctpic{
+        width:100%;
+        
+    }
+    .classctpic img{
+        width:100%;
+        border-top-right-radius: 3%;
+        border-top-left-radius: 3%;
+    }
+    .classcttext{
+        width:100%;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .classcttext_l{
+        width:85%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+    }
+    .classcttext_l span{
+        width:100%;
+        text-align: left;
+        color:#404040;
+    }
+    .classcttext_l span:first-child{
+        font-size: 0.7rem;
+    }
+    .classcttext_l span:last-child{
+        font-size: 0.5rem;
+        padding-top: 2%;
+    }
+    .classcttext_r{
+        width:10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .classcttext_r img{
+        width:60%;
+    }
+    .class_look{
+        font-size: 0.7rem;
+    }
+    .goto{
+        width:10%;
+        position: absolute;
+        bottom: 15%;
+        left:45%;
+        background-color: #222222;
+        color: #fecc51;
+        text-align: center;
+        padding: 0.5% 0 0.5% 0;
+        font-size: 0.7rem;
+        margin: auto;
+        cursor: pointer;
+    }
+}
+/* PC端 */
+@media (min-width:993px){
+    .class_title{
+        padding-top: 5%;
+    }
+    .class_bt{
+        color:#404040;
+        margin: auto;
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 0.5%;
+    }
+    .class_h{
+        border-bottom: 3px solid #fecc51;
+        margin: auto;
+    }
+    .class_main{
+        width:82%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        margin: auto;
+        margin-top:2%;
+    }
+    .classct{
+        width:30%;
+        margin-top:4%;
+        border:  1px solid#d1d1d1;
+        border-radius: 3%;
+    }
+    .classct:hover{
+        cursor: pointer;
+        box-shadow: 0 0 30px #d1d1d1;
+    }
+    .classctpic{
+        width:100%;
+        
+    }
+    .classctpic img{
+        width:100%;
+        border-top-right-radius: 3%;
+        border-top-left-radius: 3%;
+    }
+    .classcttext{
+        width:100%;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .classcttext_l{
+        width:80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+    }
+    .classcttext_l span{
+        width:100%;
+        text-align: left;
+        color:#404040;
+    }
+    .classcttext_l span:first-child{
+        font-size: 1rem;
+    }
+    .classcttext_l span:last-child{
+        font-size: 0.8rem;
+        padding-top: 2%;
+    }
+    .classcttext_r{
+        width:15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .classcttext_r img{
+        width:50%;
+    }
+    .class_look{
+        font-size: 1rem;
+    }
+    .goto{
+        width:10%;
+        position: absolute;
+        bottom: 15%;
+        left:45%;
+        background-color: #222222;
+        color: #fecc51;
+        text-align: center;
+        padding: 0.5% 0 0.5% 0;
+        font-size: 1.2rem;
+        margin: auto;
+        cursor: pointer;
+    }
+}
+.banner{
+    width:100%;
+}
+.banner img{
+    width:100%;
+}
+.class_look{
+    padding: 4% 0 5% 0;
+    color:#404040;
+    text-align: center;
+}
+.bannertwo{
+    width:100%;
+    position: relative;
+}
+.bannertwo img{
+    width:100%;
+}
+.end{
+    margin-top: 0;
+}

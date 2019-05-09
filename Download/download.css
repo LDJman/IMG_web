@@ -1,0 +1,246 @@
+/* 移动端 */
+@media (max-width:480px){
+   .pad_code,.pc_code{
+        display: none;
+    }
+    .hope{
+        padding-top: 5%;
+    }
+    .hope_bt{
+        font-size: 0.9rem;
+        color:#fecc51;
+        text-align: center;
+    }
+    .hope_st{
+        color:#797979;
+        font-size: 0.8rem;
+        text-align: center;
+        padding-top: 1%;
+    }
+    .hope_content{
+        width:60%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    .pic{
+        width:42%;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .pic img{
+        width:100%;
+    }
+    .p_text{
+        width:100%;
+        color:#2b2b2b;
+        font-size:0.8rem;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .goto{
+        display:none;
+    }
+    .codeall{
+        margin-top: 10%;
+    }
+    .code_bt{
+        font-size: 0.9rem;
+        color:#fecc51;
+        text-align: center;
+    }
+    .code_st{
+        color:#797979;
+        font-size: 0.8rem;
+        text-align: center;
+        padding-top: 1%;
+    }
+
+}
+/* 平板端 */
+@media (min-width:481px){
+   .app_code,.pc_code{
+        display: none;
+    }
+    .hope{
+        padding-top: 5%;
+    }
+    .hope_bt{
+        font-size: 1.2rem;
+        color:#fecc51;
+        text-align: center;
+    }
+    .hope_st{
+        color:#797979;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 1%;
+    }
+    .hope_content{
+        width:35%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    .pic{
+        width:40%;
+        margin-top: 15%;
+        cursor: pointer;
+    }
+    .pic img{
+        width:100%;
+    }
+    .p_text{
+        width:100%;
+        color:#2b2b2b;
+        font-size:0.8rem;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .goto{
+        width:25%;
+        margin: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:4%;
+    }
+    .gobt{
+        width:75%;
+        background-color: #000000;
+        font-size: 1.2rem;
+        color:#fecc51;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content:  center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        padding: 5% 0 5% 0;
+    }
+    .topic{
+        width:15%;
+    }
+    .topic img{
+        width:100%;
+    }
+    .codeall{
+        margin-top: 8%;
+    }
+    .code_bt{
+        font-size: 1.2rem;
+        color:#fecc51;
+        text-align: center;
+    }
+    .code_st{
+        color:#797979;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 1%;
+    }
+}
+/* PC端 */
+@media (min-width:993px){
+   .app_code,.pad_code{
+        display: none;
+    }
+   .pc_code{
+        display: block;
+    }
+    .hope{
+        padding-top: 5%;
+    }
+    .hope_bt{
+        font-size: 1.5rem;
+        color:#fecc51;
+        text-align: center;
+    }
+    .hope_st{
+        color:#797979;
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 1%;
+    }
+    .hope_content{
+        width:60%;
+        margin: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .pic{
+        width:21%;
+        margin-top: 8%;
+        cursor: pointer;
+    }
+    .pic img{
+        width:100%;
+    }
+    .p_text{
+        width:100%;
+        color:#2b2b2b;
+        font-size:1.3rem;
+        text-align: center;
+        margin-top: 8%;
+    }
+    .goto{
+        width:22%;
+        margin: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:4%;
+    }
+    .codeall{
+        margin-top: 8%;
+    }
+    .gobt{
+        width:75%;
+        background-color: #000000;
+        font-size: 1.5rem;
+        color:#fecc51;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content:  center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        padding: 5% 0 5% 0;
+        cursor: pointer;
+    }
+    .topic{
+        width:15%;
+    }
+    .topic img{
+        width:100%;
+    }
+    .code_bt{
+        font-size: 1.5rem;
+        color:#fecc51;
+        text-align: center;
+    }
+    .code_st{
+        color:#797979;
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 1%;
+    }
+}
+.app_code,.pad_code,.pc_code{
+    width:100%;
+    padding-top: 5%;
+}
+.app_code img,.pad_code img,.pc_code img{
+    width:100%;
+}
+.end {
+    margin-top:0;
+    padding-top: 0;
+}

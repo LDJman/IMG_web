@@ -1,0 +1,217 @@
+/* 移动端 */
+@media (max-width:480px){
+    .new_title{
+        padding-top: 5%;
+    }
+    .new_bt{
+        color:#404040;
+        margin: auto;
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    .new_h{
+        height: 0px;
+        border-bottom: 2px solid #fecc51;
+        margin: auto;
+    }
+    .newintext span{
+        font-size: 0.5rem;
+    }
+    .artct{
+        width:85%;    
+    }
+    .artintext span{
+        font-size: 0.8rem;
+    }
+    .more{
+        font-size:0.5rem;
+        color:#404040;
+    }
+    .artin{
+        width:45%;
+        margin-top: 8%;
+    }
+    .artin:hover{
+        cursor: pointer;
+        box-shadow: 0 0 30px #d1d1d1;
+    }
+    .goto{
+        width:15%;
+        position: absolute;
+        bottom: 15%;
+        left:43%;
+        background-color: #222222;
+        color: #fecc51;
+        text-align: center;
+        padding: 0.5% 0 0.5% 0;
+        font-size: 0.5rem;
+        margin: auto;
+        cursor: pointer;
+    }
+}
+/* 平板端 */
+@media (min-width:481px){
+    .new_title{
+        padding-top: 5%;
+    }
+    .new_bt{
+        color:#404040;
+        margin: auto;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-bottom: 0.5%;
+    }
+    .new_h{
+        border-bottom: 3px solid #fecc51;
+        margin: auto;
+    }
+    .newintext span{
+        font-size: 0.5rem;
+    }
+    .artintext span{
+        font-size: 0.5rem;
+    }
+    .artct{
+        width:75%;    
+    }
+    .artin{
+        width:29%;
+        margin-top: 5%;
+    }
+    .artin:hover{
+        cursor: pointer;
+        box-shadow: 0 0 30px #d1d1d1;
+    }
+    .more{
+        font-size: 0.5rem;
+        color:#404040;
+    }
+    .goto{
+        width:10%;
+        position: absolute;
+        bottom: 15%;
+        left:45%;
+        background-color: #222222;
+        color: #fecc51;
+        text-align: center;
+        padding: 0.5% 0 0.5% 0;
+        font-size: 0.7rem;
+        margin: auto;
+        cursor: pointer;
+    }
+}
+/* PC端 */
+@media (min-width:993px){
+    .new_title{
+        padding-top: 5%;
+    }
+    .new_bt{
+        color:#404040;
+        margin: auto;
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 0.5%;
+    }
+    .new_h{
+        border-bottom: 3px solid #fecc51;
+        margin: auto;
+    }
+    .newintext span{
+        font-size: 1rem;
+    }
+    .artct{
+        width:75%;    
+    }
+    .artin{
+        width:29%;
+        margin-top: 5%;
+    }
+    .artin:hover{
+        cursor: pointer;
+        box-shadow: 0 0 30px #d1d1d1;
+    }
+    .artintext span{
+        font-size: 1rem;
+    }
+    .more{
+        font-size: 1rem;
+        color:#404040;
+    }
+    .goto{
+        width:10%;
+        position: absolute;
+        bottom: 15%;
+        left:45%;
+        background-color: #222222;
+        color: #fecc51;
+        text-align: center;
+        padding: 0.5% 0 0.5% 0;
+        font-size: 1.2rem;
+        margin: auto;
+        cursor: pointer;
+    }
+}
+.banner{
+    width:100%;
+}
+.banner img{
+    width:100%;
+}
+.newct{
+    width:75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;  
+}
+.newin{
+    width:29%;
+    margin-top: 5%;
+}
+.newin:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px #d1d1d1;
+}
+.artct{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;    
+}
+.newinpic img{
+    width:100%;
+}
+.newintext span,.artintext span{
+    width:100%;
+    text-align: left;
+    color:#404040;
+}
+.newintext div,.artintext div{
+    width:25%;
+}
+.newintext div img,.artintext div img{
+    width:100%;
+}
+.newintext,.artintext{
+    padding-top: 10%;
+    padding-left: 3%;
+}
+.newintext div,.artintext div{
+    padding-top: 10%;
+}
+.more{
+    text-align: center;
+    padding: 6% 0 6% 0;
+}
+.bannertwo{
+    width:100%;
+    position: relative;
+}
+.bannertwo img{
+    width:100%;
+}
+.end{
+    margin-top: 0;
+}

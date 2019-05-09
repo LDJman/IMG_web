@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 移动端 */
+@media (max-width:480px){
+    body{
+        position: relative;
+    }
+    nav{
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        width:15%;
+        height: 45%;
+    }
+    .nav_list_app{
+        width:25px;
+        height: 22px;
+        background-image: url("img/nav_title_open.png");
+        background-size:100% 100%;
+        position: absolute;
+        top:30%;
+        right:20px;
+    }
+    .nav_list_web{
+        display: none;
+    }
+    .app_nav_list{
+        width:100%;
+        height: 155px;
+        position: absolute;
+        top:45px;
+        left: 0;
+        background-color: #222222;
+        display: none;
+    }
+    .nav_list_menu{
+        width:100%;
+        height: 30px;
+        border-bottom: 1px solid #fff;
+        display: flex;
+        align-items: center;
+    }
+    .nav_list_menu a{
+        color:#fff;
+        margin-left:10px;
+        text-decoration: none;
+    }
+    .nav_list_menu a:hover{
+        color:#fecc51;
+    }
+    .l_and_r{
+        height: 80%;
+        color:black;
+        display: flex;
+        align-items: center;
+        background-color:#fecc51;
+        margin-left:10px;
+        border-radius: 5px;
+    }
+    .pop_out{
+        width:90%;
+        height:40% ;
+        background-color: #fff;
+        border-radius: 5%;
+    }
+    .end{
+        height: 10%;
+    }
+    .end_bt,.end_st div{
+        font-size:0.5rem; 
+    }
+}
+/* 平板端 */
+@media (min-width:481px){
+    .logo{
+        width:8%;
+        height: 30%;
+        position: absolute;
+        top:30%;
+        left: 9%;
+    }
+    .nav_list_app{
+        display: none;
+    }
+    .app_nav_list{
+        display: none;
+    }
+    .nav_list_web{
+        width: 44%;
+        height: 40%;
+        position: absolute;
+        top:30%;
+        right:20px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav_list_web a{
+        height: auto;
+        color:#fff;
+        text-decoration: none;
+    }
+    .nav_list_web a:hover{
+        color:#fecc51;
+    }
+    .l_and_r{
+        width:18%;
+        height: 100%;
+        display: inline-block;
+        color:black;
+        background-color:#fecc51;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    .pop_out{
+        width:45%;
+        height:30% ;
+        background-color: #fff;
+        border-radius: 5%;
+    }
+    .end{
+        height: 10%;
+    }
+    .end_bt,.end_st div{
+        font-size:1.2rem; 
+    }
+}
+/* PC端 */
+@media (min-width:993px){
+    .logo{
+        width:8%;
+        height: 30%;
+        position: absolute;
+        top:30%;
+        left: 9%;
+    }
+    .nav_list_app{
+        display: none;
+    }
+    .app_nav_list{
+        display: none;
+    }
+    .nav_list_web{
+        width: 44%;
+        height: 40%;
+        position: absolute;
+        top:30%;
+        right:20px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav_list_web a{
+        height: auto;
+        color:#fff;
+        text-decoration: none;
+    }
+    .nav_list_web a:hover{
+        color:#fecc51;
+    }
+    .l_and_r{
+        width:18%;
+        height: 100%;
+        display: inline-block;
+        color:black;
+        background-color:#fecc51;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    .pop_out{
+        width:400px;
+        height:300px ;
+        background-color: #fff;
+        border-radius: 5%;
+    }
+    .end{
+        height: 25%;
+    }
+    .end_bt,.end_st div{
+        font-size:1.4rem; 
+    }
+    
+}
+/* 共有部分，代码复用 */
+nav{
+    width:100%;
+    background-color: #222222;
+    position: relative;
+}
+.logo{
+    background-image: url("img/IMG_logo_nav.png");
+    background-size: 100% 100%;
+}
+.banner img{
+    width: 100%;
+}
+.pop{
+    width:100%;
+    position: fixed;
+    top:0;
+    background-color: rgba(134, 128, 128, 0.5);
+    z-index:9;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.pop_close{
+    width:95%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color:#fecc51;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pop_menu{
+    width:100%;
+    height: 10%;
+    display: flex;
+}
+.pop_l,.pop_r{
+    width:50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fecc51;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.pop_l span{
+    border-bottom: 3px solid black;
+}
+.pop_l_input{
+    width:100%;
+    /* display: none; */
+}
+.pop_r_input{
+    width:100%;
+    display: none;
+}
+.phonenum, .psw,.code,.rphonenum, .rpsw{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    color:#a7a7a7;
+}
+.psw{
+    margin-top: 5%;
+}
+.phonenum input, .psw input,.rphonenum input, .rpsw input{
+    width:60%;
+    height: 10%;
+    border-radius: 20px;
+    border:1px solid #fecc51;
+    color:#a7a7a7;
+}
+.code input{
+    width:40%;
+    height: 10%;
+    border-radius: 20px;
+    border:1px solid #fecc51;
+    color:#a7a7a7;
+}
+.getcode{
+    width:15%;
+    height: 10%;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fecc51;
+    margin-left: 5%;
+    border-radius: 20px;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+.code, .rpsw{
+    margin-top: 2%;
+}
+.bt{
+    width:30%;
+    height: 10%;
+    border-radius: 20px;
+    background-color: #fecc51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto 5%  auto;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.rbt{
+    width:30%;
+    height: 10%;
+    border-radius: 20px;
+    background-color: #fecc51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% auto 1%  auto;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.tips{
+    width:100%;
+    height: 10%;
+    color:#a7a7a7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tips_left{
+    width:30%;
+    border-bottom: 1px solid black;
+    color:#a7a7a7;
+}
+.tips_right{
+    width:30%;
+    border-bottom: 1px solid black;
+    color:#a7a7a7;
+}
+.tips_text{
+    font-size: 0.9rem; 
+}
+.llogo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.llogo img{
+    width: 20%;
+    cursor: pointer;
+}
+.end {
+   margin-top: 3%;
+   background-color: #fffaee;
+   width:100%;
+   background-color: #1f1f1f; 
+   display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+}
+.end_content{
+    width:100%;
+}
+.end_bt,.end_st{
+    color:#a2a2a2;
+    margin:auto;
+    text-align: center;
+}
+.end_st{
+    padding-top: 1%;
+}
+.end_st div{
+    float: left;
+    border-left: 1px solid #a2a2a2;
+}
